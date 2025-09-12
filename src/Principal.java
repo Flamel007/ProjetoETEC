@@ -4,15 +4,15 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		//Objeto  = instância da Classe
-		Pessoa Victor = new Pessoa();
+		Pessoa victor_obj = new Pessoa();
 		
-		Pessoa luiz = new Pessoa("Luiz", 15);
-		Pessoa rafael = new Pessoa();
+		Pessoa luiz_obj = new Pessoa("Luiz", 15);
+		Pessoa rafael_obj = new Pessoa();
 
-		luiz.setNome("Luiz");
+		luiz_obj.setNome("Luiz");
 		
-		System.out.println(Victor.getNome());
-		System.out.println(luiz.getNome());
+		System.out.println(victor_obj.getNome());
+		System.out.println(luiz_obj.getNome());
 	}
 
 }
